@@ -1,0 +1,45 @@
+/* copyright Addy Osmani, 2010. */
+
+body { margin:0 auto; background-image:url('../images/bg-tile.png');}
+.container { width:800px; margin:0 auto; }
+
+.box {
+    
+ -moz-border-radius:300px;
+-webkit-border-radius:300px;
+background-position:0px 0px;
+-moz-box-shadow:1px 1px 1px #FFFFFF;
+-webkit-box-shadow:1px 1px 1px #FFFFFF;
+background-color:blue;
+position:absolute;
+background-repeat:no-repeat;
+border:10px solid #666666;
+float:left;
+height:120px;
+margin:18px;
+position:absolute;
+width:120px;
+padding:5px;
+
+background-image:url('../images/sample.jpg');
+background-position:-50px 0px;
+    
+
+}
+
+.box:hover{
+     border:10px solid #111; 
+     
+}
+
+
+.logo{
+  background-image:url('../images/logo.png');
+  width:240px;
+  height:105px;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  margin-top:240px;
+  margin-left:260px;
+  position:absolute;
+}
